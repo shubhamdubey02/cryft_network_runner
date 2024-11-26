@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ava-labs/avalanche-network-runner/network/node"
-	"github.com/ava-labs/avalanche-network-runner/utils"
 	"github.com/ava-labs/avalanchego/genesis"
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/utils/constants"
 	"github.com/ava-labs/avalanchego/utils/formatting/address"
 	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/shubhamdubey02/cryft_network_runner/network/node"
+	"github.com/shubhamdubey02/cryft_network_runner/utils"
 )
 
 const validatorStake = units.MegaAvax

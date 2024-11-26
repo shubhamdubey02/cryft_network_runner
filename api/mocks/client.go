@@ -3,12 +3,12 @@
 package mocks
 
 import (
-	api "github.com/ava-labs/avalanche-network-runner/api"
+	api "github.com/shubhamdubey02/cryft_network_runner/api"
 	admin "github.com/ava-labs/avalanchego/api/admin"
 
 	avm "github.com/ava-labs/avalanchego/vms/avm"
 
-	evm "github.com/ava-labs/coreth/plugin/evm"
+	evm "github.com/cryft-labs/coreth/plugin/evm"
 
 	health "github.com/ava-labs/avalanchego/api/health"
 

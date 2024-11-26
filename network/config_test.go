@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ava-labs/avalanche-network-runner/network"
-	"github.com/ava-labs/avalanche-network-runner/network/node"
+	"github.com/shubhamdubey02/cryft_network_runner/network"
+	"github.com/shubhamdubey02/cryft_network_runner/network/node"
 	"github.com/stretchr/testify/require"
 )
 

@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
-	rpcb "github.com/ava-labs/avalanche-network-runner/rpcpb"
-	"github.com/ava-labs/avalanche-network-runner/ux"
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/staking"
 	"github.com/ava-labs/avalanchego/utils/beacon"
 	"github.com/ava-labs/avalanchego/utils/constants"
 	"github.com/ava-labs/avalanchego/utils/logging"
+	rpcb "github.com/shubhamdubey02/cryft_network_runner/rpcpb"
+	"github.com/shubhamdubey02/cryft_network_runner/ux"
 )
 
 const (

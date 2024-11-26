@@ -26,7 +26,7 @@ Secondly, interact with it.
 There are two ways you can interact with the server:
 
 - **Command Line**: Command can be issued using the command line, e.g. `avalanche-network-runner control stop`
-- **HTTP**: You can also send command as HTTP Post requests to the Avalanche Network Runner. Requests can be made via curl or via a tool such as the [Avalanche Network Runner Postman Collection](https://github.com/ava-labs/avalanche-network-runner-postman-collection).
+- **HTTP**: You can also send command as HTTP Post requests to the Avalanche Network Runner. Requests can be made via curl or via a tool such as the [Avalanche Network Runner Postman Collection](https://github.com/shubhamdubey02/cryft_network_runner-postman-collection).
 
 While the command line is handy for short commands (e.g. stopping the network), issuing more complex commands with more data, like adding a blockchain, can be hard from the command line. Therefore, we recommend using the HTTP endpoints for that. Both ways can be combined.
 
@@ -67,7 +67,7 @@ Requires golang to be installed on the system ([https://go.dev/doc/install](http
 ### Clone the Repo
 
 ```sh
-git clone https://github.com/ava-labs/avalanche-network-runner.git
+git clone https://github.com/shubhamdubey02/cryft_network_runner.git
 cd avalanche-network-runner/
 ```
 
@@ -116,7 +116,7 @@ To start it, execute inside the cloned directory:
 
 ## Using `avalanche-network-runner`
 
-You can import this repository as a library in your Go program, but we recommend running `avalanche-network-runner` as a binary. This creates an RPC server that you can send requests to in order to start a network, add nodes to the network, remove nodes from the network, restart nodes, etc.. You can make requests through the `avalanche-network-runner` command or by making API calls. Requests are "translated" into gRPC and sent to the server. Requests can be made via curl or via a tool such as the [Avalanche Network Runner Postman Collection](https://github.com/ava-labs/avalanche-network-runner-postman-collection).
+You can import this repository as a library in your Go program, but we recommend running `avalanche-network-runner` as a binary. This creates an RPC server that you can send requests to in order to start a network, add nodes to the network, remove nodes from the network, restart nodes, etc.. You can make requests through the `avalanche-network-runner` command or by making API calls. Requests are "translated" into gRPC and sent to the server. Requests can be made via curl or via a tool such as the [Avalanche Network Runner Postman Collection](https://github.com/shubhamdubey02/cryft_network_runner-postman-collection).
 
 ### Using default paths
 

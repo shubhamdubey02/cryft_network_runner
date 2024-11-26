@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/avalanche-network-runner/network/node"
 	"github.com/ava-labs/avalanchego/ids"
+	"github.com/shubhamdubey02/cryft_network_runner/network/node"
 )
 
 var (

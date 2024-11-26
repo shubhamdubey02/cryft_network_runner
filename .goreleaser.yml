@@ -6,7 +6,7 @@ builds:
     flags:
       - -v
     ldflags:
-      - -X 'github.com/ava-labs/avalanche-network-runner/cmd.Version={{.Version}}'
+      - -X 'github.com/shubhamdubey02/cryft_network_runner/cmd.Version={{.Version}}'
     goos:
       - linux
       - darwin
